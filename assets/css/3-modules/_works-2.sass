@@ -1,0 +1,217 @@
+.work-section
+    height: 1200px
+    
+    .works-2
+        background: url(../img/worksbackground1.jpg) no-repeat center center
+        background-size: cover
+        height: 1200px
+        background-color: black
+
+        .title
+            padding-top: 100px
+            text-align: center
+            padding-bottom: 50px
+            letter-spacing: 0.07em
+
+            p
+                padding-left: 20%
+                font-weight: 300
+                font-size: 14px
+                color: #fff
+            h3
+                margin: 0
+                font-weight: 500
+                font-size: 30px
+                color: #fff
+        
+                
+        .button
+            margin-top: 50px 
+            position: absolute
+            right: 20%
+            min-width: 200px
+            max-width: 200px
+            border: 1px solid white
+            width: 15%
+            text-transform: none
+            
+            font-family: 'Raleway', sans-serif
+            font-weight: 300
+            font-size: 18px
+            color: #fff 
+            &:hover
+                color: black
+                border: 1px solid grey
+            
+            
+        .images
+            width: 90%
+            margin: 0 auto
+            position: relative
+            height: 600px  
+        
+            #poza
+                top: 100px
+                width: 55%
+                position: absolute
+                right: 0
+                z-index: 3
+                img
+                    width: 100%
+                    box-shadow: 7px 7px 6px 0px rgba(0,0,0,0.75)
+            
+            
+            #pers1
+                width: 16%
+                position: absolute
+                top: 7%
+                left: 30%
+                
+                img
+                    width: 100%
+                    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75)
+                    transform: rotate(-15deg)
+            #pers2
+                width: 16%
+                position: absolute
+                top: 30%
+                left: 10%
+                z-index: 4
+                img
+                    width: 100%
+                    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75)
+                    transform: rotate(30deg)
+            #pers3
+                width: 16%
+                position: absolute
+                top: 80%
+                left: 15%
+                z-index: 2
+                img
+                    width: 100%
+                    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75)    
+                    transform: rotate(-45deg)
+                    
+                    
+            #idee1
+                width: 23%
+                position: absolute
+                top: 87%
+                left: 30%
+                img
+                    width: 100%
+                    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75)
+                    transform: rotate(-15deg)
+                    
+            #idee2
+                width: 23%
+                position: absolute
+                top: 50%
+                left: 23%
+                z-index: 3
+                img
+                    width: 100%
+                    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75)
+                    transform: rotate(15deg)        
+
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+@media(max-width: 1200px)
+    .work-section
+        .works-2
+            .button
+                margin-top: 0
+            
+            .images
+                #pers3
+                    top: 70%
+                #idee1
+                    top: 77%
+                    
+@media(max-width: 950px)
+    .work-section
+        .works-2
+            .button
+                margin-top: 120px
+            .images
+                #poza
+                    width: 100%
+                    z-index: 1
+                    img
+                        width: 100%
+                        box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.75)
+                #idee1
+                    top: 15%
+                    width: 20%
+                    z-index: 2
+                    left: 75%
+                    
+                    img
+                        box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75)
+                        
+                #idee2
+                    top: 25%
+                    width: 20%
+                    z-index: 2
+                    left: 65%
+                    img
+                        box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75)
+                #pers1
+                    top: 70%
+                    width: 16%
+                    left: 75%
+                    z-index: 4
+                #pers2
+                    top: 15%
+                    width: 16%
+                    
+                    z-index: 3
+                #pers3    
+                    top: 95%
+                    width: 16%
+                    left: 10%
+                    z-index: 2  
+                    
+@media(max-width: 825px)
+    .work-section
+        .works-2
+            text-align: center
+            .button
+                position: static
+                
+            .images
+                height: 500px
+                
+                
+@media(max-width: 725px)
+    .work-section
+        .works-2
+  
+            .images
+                height: 450px      
+                
+@media(max-width: 625px)
+    .work-section
+        .works-2
+  
+            .images
+                height: 400px   
+            
+@media(max-width: 525px)
+    .work-section
+        .works-2
+  
+            .images
+                height: 350px                    
+            
+@media(max-width: 425px)
+    .work-section
+        .works-2
+  
+            .images
+                height: 300px                                

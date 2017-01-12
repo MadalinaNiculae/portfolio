@@ -1,0 +1,26 @@
+- id: pescarusul
+  description: This is the first gallery
+  imagefolder: ../assets/img/work/pescarusul
+  images:
+  - name: pescarusul-idee1.jpg
+    thumb: pescarusul-idee1.jpg
+    text: The first image
+  - name: pescarusul-pers1.jpg
+    thumb: pescarusul-pers1.jpg
+    text: The second image
+  - name: pescarusul-poza.jpg
+    thumb: pescarusul-poza.jpg
+    text: The third image
+- id: noaptea
+  description: This is even another gallery!
+  imagefolder: assets/img/work/noaptea
+  images:
+  - name: noaptea-idee1.jpg
+    thumb: noaptea-idee1.jpg
+    text: Another gallery, first image
+  - name: noaptea-pers1.jpg
+    thumb: noaptea-pers1.jpg
+    text: Another gallery, second image
+  - name: noaptea-poza.jpg
+    thumb: noaptea-poza.jpg
+    text: Another gallery, third image
